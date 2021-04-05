@@ -236,8 +236,8 @@ console.log(artists[8].name);
  
  Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex() {
-
+function getArtistByIndex(arr, desiredNumber) {
+  return `the artist at index ${desiredNumber} is ${arr[desiredNumber].name}`
 }
   /*Your Code Here*/
 
@@ -252,9 +252,14 @@ Use get20s to do the following:
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
-function get20s(/*Your Code Here*/){
-  /*Your Code Here*/
-  console.log()
+function get20s(arr){
+  let higherYears = []
+  for (let item of arr){
+    if (parseInt(item.years) >= 1900){ 
+      higherYears.push(item.name)
+    }
+  }
+  return higherYears
 }
 
 
