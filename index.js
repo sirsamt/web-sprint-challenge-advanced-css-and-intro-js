@@ -206,14 +206,15 @@ export const artists = [
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Practice accessing data above by console.log-ing following items:
 (no functions needed) */
-console.log(just starting)
+
 
 
 //(1) Name of the first artist (0th index) in the array
 
-
+"name" "Amedeo Modigliani";
 //(2) Bio of the third artist (2nd index) in the array 
-
+"bio": "Wassily Wassilyevich Kandinsky (Russian: Васи́лий Васи́льевич Канди́нский, tr. Vasíliy Vasílʹevich Kandínskiy) (16 December [O.S. 4 December] 1866 – 13 December 1944) was a Russian painter and art theorist.",
+      "wikipedia": "http://en.wikipedia.org/wiki/Wassily_Kandinsky",
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
